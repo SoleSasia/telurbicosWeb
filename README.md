@@ -19,19 +19,30 @@ Sitio web para muralistas. Predominan carrouseles.
 ## Secciones
 
 ### Home
-slider/carousel automático (5 imágenes) con enlace a murales
+  + slider/carousel automático (5 imágenes) con enlace a murales
 ___  
-### Murales
+### Murales => contiene subsecciones
   + Murales Telúrbicos: 1 carousel x mural
   + Homenajes: idem
   + Otros Murales: idem
   + Mapa: ubicación de cada mural
 ___
 ### Prensa
+  + Listado con enlace a artículos, entrevistas, etc.
 ___
 ### Nosotres
+  + Ella:
+  	+ Foto perfil
+  	+ Breve descripcion
+  	+ enlace a redes
+  + Él: idem 
 ___
 ### Contacto
+  + Formulario de contacto
+	+ Nombre
+	+ Email
+	+ Asunto
+	+ Mensaje 
 ___
 
 ## Decisiones
