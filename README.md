@@ -7,7 +7,7 @@ Sitio web para muralistas. Predominan carrouseles.
   	+ Cloudinary ==> implementado en Angular o en Spring boot?
     
   + mapa: crud ubicación de murales
-  	+ Mapbox ==> 
+  	+ Mapbox, leaflet? ==> 
     
   + gestión de datos: crud de información murales y artistas (cv)
 
@@ -19,10 +19,10 @@ Sitio web para muralistas. Predominan carrouseles.
 ## Secciones
 
 ### Home
-slider/carrousel automático (5 imágenes) con enlace a murales
+slider/carousel automático (5 imágenes) con enlace a murales
 ___  
 ### Murales
-  + Murales Telúrbicos: 1 carrousel x mural
+  + Murales Telúrbicos: 1 carousel x mural
   + Homenajes: idem
   + Otros Murales: idem
   + Mapa: ubicación de cada mural
