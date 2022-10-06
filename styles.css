@@ -1,10 +1,50 @@
-/*
-.carousel-item img {
+body{
+    height: 100vh;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: none;
+    background-position: center center;
+}
+
+/*de Franco Paez
+main {
+    width: 100%;
     height: 100%;
-    width: 100vh;
-}*/
-img{
+    position: relative;
+    background-color: red;
+}
   
+.carouselHome{
+    width: 100%;
+    height: 100%;
+}
+  
+.carousel-item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+
+.carousel-item::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel-item img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -12,4 +52,7 @@ img{
     object-position: center;
     -o-object-position: center;
     position: relative;
-  }
+}*/
+
+
+  

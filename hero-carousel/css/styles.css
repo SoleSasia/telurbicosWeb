@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+   /*background-color: red;*/
+    min-height: 100vh;
+    width: 100%;
+}
+
+/*HERO CAROUSEL*/
+
+#heroCarouselExample .carousel-item.telurbicos {
+    background-image: url("../assets/bg-telurbicos.jpg");
+}
+
+#heroCarouselExample .carousel-item.homenajes {
+    background-image: url("../assets/bg-homenajes.jpg");
+}
+
+#heroCarouselExample .carousel-item.otros {
+    background-image: url("../assets/bg-otros.jpg");
+}
+
+/*Full Screen Mobile*/
+#heroCarouselExample .carousel-item {
+    height: 100vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+#heroCarouselExample .carousel-item .carousel-caption{
+    background:rgba(0,0,0,0.6);
+    border-radius: 0.25rem;
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+
+  /*TODO: animations*/
+  #heroCarouselExample .caption h2{
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  #heroCarouselExample .caption p{
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+  }
+  
+  #heroCarouselExample .caption a{
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+  }
+/*verificar si funciona*/
+  .carousel-indicators .active {
+      height: 5px;
+  }
