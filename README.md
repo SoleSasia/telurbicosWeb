@@ -43,7 +43,6 @@ ___
 	+ Email
 	+ Asunto
 	+ Mensaje 
-___
 
 ## Decisiones
 
@@ -51,4 +50,11 @@ ___
 	+ mobile first
 + Backend: Spring Boot o TS en Angular?
 + DB: Firebase, ?
+___
+
+## DER v2
+
+![DER_telurbicos_v2](https://user-images.githubusercontent.com/101983696/194319921-ac069a18-b82d-42f5-99af-41cb067360d2.jpg)
+
+
 
