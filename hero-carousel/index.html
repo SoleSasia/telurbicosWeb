@@ -11,73 +11,168 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!--Animations-->
 </head>
-<body class="d-flex align-items-center justify-content-center">
-    <div class="container-fluid p-0">
+<body>
+    <!--Header section-->
+    <header>
+
+        <!--Navbar section-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Telúrbicos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="Barra de navegación lateral">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Telúrbicos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    
+                    
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door fs-4"></i>Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Murales
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Telúrbicos</a></li>
+                                    <li><a class="dropdown-item" href="#">Homenajes</a></li>
+                                    <!--<li><hr class="dropdown-divider"></li>-->
+                                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                                    <li><a class="dropdown-item" href="#">Mapa</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Prensa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="bi bi-person fs-4"></i>Nosotres</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="bi bi-envelope fs-4"></i>Contacto</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                
+                </div>
+            </div>
+        </nav>
     
-        <div id="heroCarouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="true">
+    </header>
+    
+    <!--Barra lateral de Navegacion
+    <aside class="sidebar" id="menu-lateral">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door fs-4"></i>Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Murales
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Telúrbicos</a></li>
+                    <li><a class="dropdown-item" href="#">Homenajes</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                    <li><a class="dropdown-item" href="#">Mapa</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-person fs-4"></i>Nosotres</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-envelope fs-4"></i>Contacto</a>
+            </li>
+            
+        </ul>
+    </aside>
+-->
 
-            <div class="carousel-indicators mb-2">
-                <button type="button" data-bs-target="#heroCarouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#heroCarouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#heroCarouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!--Main section-->
+    <main class="d-flex align-items-center justify-content-center">
+
+        <div class="container-fluid p-0">
+        
+            <div id="heroCarouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="true">
+
+                <div class="carousel-indicators mb-2">
+                    <button type="button" data-bs-target="#heroCarouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active telurbicos">
+                        <div class="container-fluid h-100 d-md-block">
+                            <div class="row align-items-center h-100">
+                                <div class="col-12 col-md-8 col-lg-7 col-xl-6">
+                                    <div class="carousel-caption p-4 mb-3 d-block">
+                                        <h2 class="fw-bolder text-capitalize">Murales telúrbicos</h2>
+                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <button class="btn btn-primary ">Ver más</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item homenajes">
+                        <div class="container-fluid h-100 d-md-block">
+                            <div class="row align-items-center h-100">
+                                <div class="col-12 col-md-8 col-lg-7 col-xl-6">
+                                    <div class="carousel-caption p-4 mb-3 d-block">
+                                        <h2 class="fw-bolder text-capitalize">Homenajes</h2>
+                                        <p>Some representative placeholder content for the second slide.</p>
+                                        <a class="btn btn-primary">Ver más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item otros">
+                        <div class="container-fluid h-100 d-md-block">
+                            <div class="row align-items-center h-100">
+                                <div class="col-12 col-md-8 col-lg-7 col-xl-6">
+                                    <div class="carousel-caption p-4 mb-3 d-block">
+                                        <h2 class="fw-bolder text-capitalize">Otros</h2>
+                                        <p>Some representative placeholder content for the third slide.</p>
+                                        <button class="btn btn-primary">Ver más</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active telurbicos">
-                    <div class="container-fluid h-100 d-md-block">
-                        <div class="row align-items-center h-100">
-                            <div class="col-12 col-md-8 col-lg-7 col-xl-6">
-                                <div class="carousel-caption p-4 mb-3 d-block">
-                                    <h2 class="fw-bolder text-capitalize">Murales telúrbicos</h2>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                    <button class="btn btn-primary ">Ver más</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item homenajes">
-                    <div class="container-fluid h-100 d-md-block">
-                        <div class="row align-items-center h-100">
-                            <div class="col-12 col-md-8 col-lg-7 col-xl-6">
-                                <div class="carousel-caption p-4 mb-3 d-block">
-                                    <h2 class="fw-bolder text-capitalize">Homenajes</h2>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                    <a class="btn btn-primary">Ver más</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item otros">
-                    <div class="container-fluid h-100 d-md-block">
-                        <div class="row align-items-center h-100">
-                            <div class="col-12 col-md-8 col-lg-7 col-xl-6">
-                                <div class="carousel-caption p-4 mb-3 d-block">
-                                    <h2 class="fw-bolder text-capitalize">Otros</h2>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                    <button class="btn btn-primary">Ver más</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
 
+        
+    </main>
+
+    <!--Footer section-->
+    <footer class="footer">
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
-    <!--Animations-->
+        <!--Animations-->
 </body>
 </html>
