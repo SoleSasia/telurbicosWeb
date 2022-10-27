@@ -7,7 +7,7 @@ Sitio web para muralistas. Predominan carrouseles.
   	+ Cloudinary ==> implementado en Angular o en Spring boot?
     
   + mapa: crud ubicación de murales
-  	+ Mapbox ==> 
+  	+ Mapbox, leaflet? ==> 
     
   + gestión de datos: crud de información murales y artistas (cv)
 
@@ -19,20 +19,30 @@ Sitio web para muralistas. Predominan carrouseles.
 ## Secciones
 
 ### Home
-slider/carrousel automático (5 imágenes) con enlace a murales
+  + slider/carousel automático (5 imágenes) con enlace a murales
 ___  
-### Murales
-  + Murales Telúrbicos: 1 carrousel x mural
+### Murales => contiene subsecciones
+  + Murales Telúrbicos: 1 carousel x mural
   + Homenajes: idem
   + Otros Murales: idem
   + Mapa: ubicación de cada mural
 ___
 ### Prensa
+  + Listado con enlace a artículos, entrevistas, etc.
 ___
 ### Nosotres
+  + Ella:
+  	+ Foto perfil
+  	+ Breve descripcion
+  	+ enlace a redes
+  + Él: idem 
 ___
 ### Contacto
-___
+  + Formulario de contacto
+	+ Nombre
+	+ Email
+	+ Asunto
+	+ Mensaje 
 
 ## Decisiones
 
@@ -40,4 +50,11 @@ ___
 	+ mobile first
 + Backend: Spring Boot o TS en Angular?
 + DB: Firebase, ?
+___
+
+## DER v2
+
+![DER_telurbicos_v2](https://user-images.githubusercontent.com/101983696/194319921-ac069a18-b82d-42f5-99af-41cb067360d2.jpg)
+
+
 
