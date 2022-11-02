@@ -1,2 +1,2 @@
 # telurbicosWeb
-SPA para dupla artística
+web estática para dupla artística
